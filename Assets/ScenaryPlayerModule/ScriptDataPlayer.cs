@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using JetBrains.Annotations;
+using Unity.VisualScripting;
 using UnityEngine;
 
 [Serializable]
@@ -18,6 +19,7 @@ public class ScriptDataPlayer : MonoBehaviour
     private int ScriptLineCount;
     [SerializeField]
     private SceneScripteData sceneScript;
+    private bool active = false;
     private CharacterScriptObj FindTagOnList(string teg)
     {
         foreach (CharacterStruct character in characterObjs)
@@ -29,8 +31,11 @@ public class ScriptDataPlayer : MonoBehaviour
     }
     public void Play()
     {
-        print("Start");
-        StartCoroutine(play());
+        if(!active){
+            active = true;
+            print("Start");
+            StartCoroutine(play());
+        }
     }
     private IEnumerator play(){
         SceneScriptLine characterObj;
