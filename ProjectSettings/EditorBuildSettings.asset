@@ -6,11 +6,19 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: "Assets/Scenes/\u0421onferenceOffline.unity"
+    guid: 9490d3c4e5db46444b0458f6b752504c
+  - enabled: 0
+    path: Assets/Scenes/table.unity
+    guid: d534315fc0b3ae140b6355031b8e8dd8
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: c9a57cc8cc9795642b4a1776f76c7ebc,
       type: 2}
+    com.unity.adaptiveperformance.google.android.provider_settings: {fileID: 11400000,
+      guid: 522753707e1458f4397b63d35ea459c7, type: 2}
     com.unity.adaptiveperformance.loader_settings: {fileID: 11400000, guid: 7d682fea71ba75c48a41e632986bf634,
       type: 2}
     com.unity.adaptiveperformance.simulator.provider_settings: {fileID: 11400000,
