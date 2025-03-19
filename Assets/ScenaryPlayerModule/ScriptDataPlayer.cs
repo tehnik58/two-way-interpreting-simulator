@@ -18,6 +18,8 @@ public class ScriptDataPlayer : MonoBehaviour
     private List<CharacterStruct> characterObjs;
     private int ScriptLineCount;
     [SerializeField]
+    private List<Renderer> objectRenderer;
+    [SerializeField]
     private SceneScripteData sceneScript;
     private bool active = false;
     private CharacterScriptObj FindTagOnList(string teg)
@@ -44,7 +46,13 @@ public class ScriptDataPlayer : MonoBehaviour
             characterObj = sceneScript.GetNextLine();
             ActualScriptInFo.Actual = FindTagOnList(characterObj.characterTeg).gameObject;
             FindTagOnList(characterObj.characterTeg).PlayAudio(characterObj.audio);
+            print($"{characterObj.delayAfterAudio} - {characterObj.audio.length * (characterObj.delayAfterAudio + 1)}");
             yield return new WaitForSeconds(characterObj.audio.length * (characterObj.delayAfterAudio + 1));
+            if (characterObj.material != null)
+            {
+                foreach(var obj in objectRenderer){
+                    obj.material = characterObj.material;}
+            }
         }
     }
 

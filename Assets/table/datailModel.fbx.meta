@@ -3,7 +3,37 @@ guid: 3c0fa84e31bcdc14a8139c38b61b4ff3
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eye_brown
+    second: {fileID: 2100000, guid: 6c6054802b2281a4f8a2f3d1f7bfcd0d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: eyebrow012
+    second: {fileID: 2100000, guid: eabdbb534188bd44bb4d7b32bba43115, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: male_elegantsuit01
+    second: {fileID: 2100000, guid: ed3baa622fb7a124f80669d4ff75c8ad, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: old_caucasian_female
+    second: {fileID: 2100000, guid: 7cebd62d50bcac1428559dd8d917a878, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: shoes03
+    second: {fileID: 2100000, guid: 53ca9b83645aa054da795f50043a88d8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: teethMaterial
+    second: {fileID: 2100000, guid: 1b813f001a816124aabc87ea7070d5b9, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

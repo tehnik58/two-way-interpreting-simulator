@@ -7384,6 +7384,7 @@ MonoBehaviour:
     Character: {fileID: 1153639888}
   - key: d4
     Character: {fileID: 1082644464}
+  objectRenderer: []
   sceneScript: {fileID: 1550784908}
 --- !u!114 &1550784908
 MonoBehaviour:
@@ -7400,46 +7401,60 @@ MonoBehaviour:
   Script:
   - audio: {fileID: 8300000, guid: 39dbe5327da947048949a343373b3345, type: 3}
     characterTeg: m
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: dd5c59976566cd5408fb0ee89294d2b3, type: 3}
     characterTeg: d1
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 748438ee74ef72d40b2cdb6f04d9169c, type: 3}
     characterTeg: d1
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 14f435a8779d8bc4aa6ee2c5485949b0, type: 3}
     characterTeg: d1
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: f78b04ff7fff3e345845eaa67ce176c7, type: 3}
     characterTeg: d1
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 3abf65d9504d67d459bf8b1ddc282ea3, type: 3}
     characterTeg: d2
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 4d99a6b6fc017ad4a91ce421250ddc72, type: 3}
     characterTeg: d2
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 17a658e72fd0a8b43a7898faa0bc2f4d, type: 3}
     characterTeg: d3
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 43678bd3e54f4204ab7c710e634a4c09, type: 3}
     characterTeg: d3
-    delayAfterAudio: 1.8
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: d43e6f7b345d7754ba4a2039213fba81, type: 3}
     characterTeg: d4
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 27dd8ff119cfd884f996f8c781ba4808, type: 3}
     characterTeg: d1
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: b8a043cc8b3a4f14e983a5c9df39788a, type: 3}
     characterTeg: d2
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 4dc9f5fbad11eaf48bdb37504a8010c1, type: 3}
     characterTeg: d2
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
   - audio: {fileID: 8300000, guid: 3e71247314b18a443856505e8812441d, type: 3}
     characterTeg: m
-    delayAfterAudio: 0
+    delayAfterAudio: 1.5
+    material: {fileID: 0}
 --- !u!114 &1550784909
 MonoBehaviour:
   m_ObjectHideFlags: 0

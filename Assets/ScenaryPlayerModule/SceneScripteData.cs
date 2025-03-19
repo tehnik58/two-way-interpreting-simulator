@@ -10,6 +10,7 @@ public struct SceneScriptLine{
     public AudioClip audio;
     public string characterTeg;
     public float delayAfterAudio;
+    public Material material;
 }
 public class SceneScripteData : MonoBehaviour
 {
