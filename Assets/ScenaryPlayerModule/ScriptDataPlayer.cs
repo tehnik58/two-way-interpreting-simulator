@@ -47,12 +47,12 @@ public class ScriptDataPlayer : MonoBehaviour
             ActualScriptInFo.Actual = FindTagOnList(characterObj.characterTeg).gameObject;
             FindTagOnList(characterObj.characterTeg).PlayAudio(characterObj.audio);
             print($"{characterObj.delayAfterAudio} - {characterObj.audio.length * (characterObj.delayAfterAudio + 1)}");
-            yield return new WaitForSeconds(characterObj.audio.length * (characterObj.delayAfterAudio + 1));
             if (characterObj.material != null)
             {
                 foreach(var obj in objectRenderer){
                     obj.material = characterObj.material;}
             }
+            yield return new WaitForSeconds(characterObj.audio.length * (characterObj.delayAfterAudio + 1));
         }
     }
 
