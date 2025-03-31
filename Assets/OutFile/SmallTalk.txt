@@ -1,0 +1,2 @@
+characters:sv1, sv2, gost1, gost2, 
+scene:SmallTalk

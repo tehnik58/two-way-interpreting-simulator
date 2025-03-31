@@ -41,7 +41,7 @@ public class ScriptDataPlayer : MonoBehaviour
     }
     private IEnumerator play(){
         SceneScriptLine characterObj;
-        for (int i = 0; i < ScriptLineCount; i++)
+        for (int i = 0; i < sceneScript.GetScriptLineCount(); i++)
         {
             characterObj = sceneScript.GetNextLine();
             ActualScriptInFo.Actual = FindTagOnList(characterObj.characterTeg).gameObject;

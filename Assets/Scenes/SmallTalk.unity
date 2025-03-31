@@ -10703,9 +10703,9 @@ MonoBehaviour:
     Character: {fileID: 312233948}
   - key: sv2
     Character: {fileID: 1862877072}
-  - key: emo
+  - key: gost2
     Character: {fileID: 299154718}
-  - key: negr
+  - key: gost1
     Character: {fileID: 1151839985}
   objectRenderer: []
   sceneScript: {fileID: 1327901015}
@@ -10721,71 +10721,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9d5a19bd63104047925e4c6e552e7e8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Script:
-  - audio: {fileID: 8300000, guid: ab4d8c559c7ff0c439993f7c9fca4a05, type: 3}
-    characterTeg: sv1
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 530855fa2838e2848abb4a525bff4bb4, type: 3}
-    characterTeg: negr
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 3a3c62c9be80a944a89b361119591100, type: 3}
-    characterTeg: sv2
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 747dfa039faffe84e8f62d897551bd10, type: 3}
-    characterTeg: emo
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 6beb18f60ea63ab43939029cb02cdbc5, type: 3}
-    characterTeg: sv1
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: b8658371dc08e6d4a991f6d77e585ea2, type: 3}
-    characterTeg: negr
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: f229a95d67137d0448ef9c2d890f2c72, type: 3}
-    characterTeg: sv2
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 3abf46a2c55a28e4e997f8db6500d6ca, type: 3}
-    characterTeg: sv2
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: ea4700a3fee20834cb0ef2422c701846, type: 3}
-    characterTeg: emo
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 925131846e6272e4fae149e5b3aec27f, type: 3}
-    characterTeg: sv1
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 71992ad2529b1294f9dd25ed3e49498e, type: 3}
-    characterTeg: negr
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 46a8d1e65d945ac4989a58219d4a3b41, type: 3}
-    characterTeg: sv2
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 63c406ce04c5f7f40889e13e5d69d3e7, type: 3}
-    characterTeg: emo
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: b65201542afdc274e89d9e300e3e0d5d, type: 3}
-    characterTeg: sv1
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: f99b9d96b821a314e859d3ff5e85edef, type: 3}
-    characterTeg: negr
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
-  - audio: {fileID: 8300000, guid: 5a8dafc6bc301b3459f63a6f298388dc, type: 3}
-    characterTeg: sv2
-    delayAfterAudio: 1.5
-    material: {fileID: 0}
+  SneneName: SmallTalk
+  Script: []
 --- !u!1001 &1332997026
 PrefabInstance:
   m_ObjectHideFlags: 0
