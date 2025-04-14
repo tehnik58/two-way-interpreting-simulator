@@ -16,6 +16,8 @@ public class CharacterScriptObj : MonoBehaviour
         GetComponent<AudioSource>().clip = _clip;
         print($"Play: {_name}");
         GetComponent<AudioSource>().Play();
+        
+        TargetStaticController.SetTarget(gameObject);
     }
     void Start()
     {
@@ -33,23 +35,11 @@ public class CharacterScriptObj : MonoBehaviour
         float dAudio = 0f;
         for (int i = 1; i < spectrum.Length - 1; i++)
         {
-            dAudio += spectrum[i];/*
-            if(  new Vector3 ( Mathf.Log (i), Mathf.Log (spectrum[i]), 3).magnitude < new Vector3 ( Mathf.Log (i), spectrum[i] - 10, 1).magnitude / 2 )
-            {
-                if(new Vector3 ( Mathf.Log (i), spectrum[i] - 10, 1).magnitude / new Vector3 ( Mathf.Log (i), Mathf.Log (spectrum[i]), 3).magnitude > max)
-                    max = new Vector3 ( Mathf.Log (i), spectrum[i] - 10, 1).magnitude / new Vector3 ( Mathf.Log (i), Mathf.Log (spectrum[i]), 3).magnitude;
-                fl = false;
-            }
-            
-            if(fl)
-                GetComponent<Animator>().SetFloat("Blend", 0f);
-            else
-                _animator.SetFloat("Blend", max);*/
+            dAudio += spectrum[i];
         }
         dAudio = dAudio/spectrum.Length;
-        //print(dAudio);
         Speak = dAudio;
 
-        _animator.SetFloat("Blend", Speak / 0.002f);
+        _animator.SetFloat("Blend1", Speak / 0.001f);
     }
 }

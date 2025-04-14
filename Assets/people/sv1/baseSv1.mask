@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!319 &31900000
+AvatarMask:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: baseSv1
+  m_Mask: 01000000010000000000000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+  m_Elements:
+  - m_Path: 
+    m_Weight: 1
+  - m_Path: Armature
+    m_Weight: 1
+  - m_Path: Armature/IK_forearm.L
+    m_Weight: 1
+  - m_Path: Armature/IK_forearm.L/IK_forearm.L_end
+    m_Weight: 1
+  - m_Path: Armature/IK_forearm.R
+    m_Weight: 1
+  - m_Path: Armature/IK_forearm.R/IK_forearm.R_end
+    m_Weight: 1
+  - m_Path: Armature/IK_leg.L
+    m_Weight: 1
+  - m_Path: Armature/IK_leg.L/IK_leg.L_end
+    m_Weight: 1
+  - m_Path: Armature/IK_leg.R
+    m_Weight: 1
+  - m_Path: Armature/IK_leg.R/IK_leg.R_end
+    m_Weight: 1
+  - m_Path: Armature/pelvis
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L/shoulder.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L/shoulder.L/arm.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L/shoulder.L/arm.L/forearm.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L/shoulder.L/arm.L/forearm.L/hand.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.L/shoulder.L/arm.L/forearm.L/hand.L/hand.L_end
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R/shoulder.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R/shoulder.R/arm.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R/shoulder.R/arm.R/forearm.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R/shoulder.R/arm.R/forearm.R/hand.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/arm0.R/shoulder.R/arm.R/forearm.R/hand.R/hand.R_end
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/neck
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/neck/head
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/neck/head/neck.001
+    m_Weight: 1
+  - m_Path: Armature/pelvis/Spine/Chest/neck/head/neck.001/neck.001_end
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L/Hip.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L/Hip.L/leg.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L/Hip.L/leg.L/foot.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L/Hip.L/leg.L/foot.L/finger.L
+    m_Weight: 1
+  - m_Path: Armature/pelvis.L/Hip.L/leg.L/foot.L/finger.L/finger.L_end
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R/Hip.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R/Hip.R/leg.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R/Hip.R/leg.R/foot.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R/Hip.R/leg.R/foot.R/finger.R
+    m_Weight: 1
+  - m_Path: Armature/pelvis.R/Hip.R/leg.R/foot.R/finger.R/finger.R_end
+    m_Weight: 1
+  - m_Path: emo-eyebrow001
+    m_Weight: 1
+  - m_Path: emo-female1605
+    m_Weight: 1
+  - m_Path: emo-low_poly
+    m_Weight: 1
+  - m_Path: emo-male_casualsuit05
+    m_Weight: 1
+  - m_Path: emo-ponytail01
+    m_Weight: 1
+  - m_Path: emo-shoes01
+    m_Weight: 1

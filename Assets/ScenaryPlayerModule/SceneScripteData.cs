@@ -35,6 +35,11 @@ public class SceneScripteData : MonoBehaviour
         return Script.Count;
     }
 
+    ~SceneScripteData()
+    {
+        TargetStaticController.pers.Clear();
+    }
+    
     public string[] GetCharactersTags(){
         return (from line in Script.DistinctBy(line => line.characterTeg) select line.characterTeg).ToArray();
     }
