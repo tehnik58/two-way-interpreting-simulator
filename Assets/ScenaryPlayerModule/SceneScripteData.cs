@@ -1,4 +1,4 @@
-using System;
+ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Globalization;
@@ -73,12 +73,14 @@ public class SceneScripteData : MonoBehaviour
 
             for (int i = 1; i < lines.Length-1; i++)
             {
-                using (WWW www = new WWW($"file://C:\\{lines[i].Split(':')[1]}"))
+                using (WWW www = new WWW($"C:\\{lines[i].Split(':')[1]}"))
                 {
-                    Debug.Log(lines[i]);
+                    Debug.Log($"lines[i]: {lines[i]}");
                     Debug.Log($"file://C:\\{lines[i].Split(':')[1]}\t{lines[i].Split(':')[0]}\t{scale}");
+                    
                     AudioClip audio = www.GetAudioClip();
                     audio.name = lines[i].Split(':')[1];
+                    Debug.Log($"length: {audio.length}");
                     Script.Add(new SceneScriptLine(audio, lines[i].Split(':')[0], scale));
                 }
             }
